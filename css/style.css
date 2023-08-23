@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400&family=Playfair+Display:wght@700&family=Roboto:ital,wght@0,400;1,700&family=Ubuntu:ital,wght@0,300;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("../images/image1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.col {
+  width: 1000px;
+  /* height: 100px; */
+  /* border: 1px solid red; */
+  margin: 30px auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+}
+input {
+  /* display: block; */
+  display: inline-block;
+  height: 50px;
+  width: 64%;
+  border: none;
+  outline: 0;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 20px;
+}
+.col label {
+  margin-top: 5px 0;
+  font-size: 20px;
+  color: yellow;
+}
+::selection {
+  color: yellow;
+}
